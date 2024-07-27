@@ -1,0 +1,19 @@
+Conceptos:
+
+Concurrencia: 
+Utilizando Promise.all y setTimeout, se simulan operaciones concurrentes para mostrar
+cómo múltiples tareas pueden ejecutarse.
+
+Distribución de Componentes: 
+El código está dividido en dos módulos (gestorDeTareas.js para la lógica de gestión de tareas y
+main.js para la unión del programa), cada uno con su propia
+responsabilidad.
+
+Separación de Interfaz e Implementación:
+La clase gestorDeTareas proporciona métodos públicos como interfaz para interactuar con las tareas,
+ocultando los detalles de implementación (como el uso de arrays para almacenar las tareas) y 
+permitiendo cambios en la implementación.Este diseño hace que el código sea más fácil de mantener y 
+reutilizar en diferentes contextos.
+
+
+
